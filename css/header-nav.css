@@ -1,0 +1,61 @@
+.headerWrap{
+    margin-bottom: 10px;
+
+}
+.header{
+    width: 1198px;
+    margin: 0 auto;
+}#headerInside{
+    height: 124px;
+    position: relative;
+    z-index: 101;
+ }
+#logo{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+#big-logo{
+    width: 138px;
+    height: 49px;
+}
+#small-logo{
+    width: 84px;
+    display: none;
+}
+
+#searchBar{
+    position: absolute;
+    left: 310px;
+}
+#searchBar,#fabu{
+    top: 36px;
+}
+.searchKey{
+    height: 46px;
+    width: 512px;
+    line-height: 46px;
+    padding-left: 34px;
+    float: left;
+    overflow: hidden;
+    border: 2px solid #42bfb7;
+    border-right: 0;
+    background: url("../images/iconAll.png") no-repeat 10px -105px;
+}
+#keyword{
+    width: 100%;
+    border: 0;
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+    outline:0;
+}
+.searchButton{
+    float: left;
+}
+#searchbtn{
+
+}
+
+

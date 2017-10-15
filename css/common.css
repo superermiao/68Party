@@ -1,0 +1,34 @@
+body{
+    font-size: 14px;
+    background-color: #eeeff1;
+    min-height: 1198px;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+}
+
+.f-l{
+    float: left;
+}
+.r-l{
+    float: right;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.clr{
+    overflow: hidden;
+    zoom: 1;
+}
+.grey-text{
+    color: rgb(198,198,198);
+}
+input{
+    background-color: #eeeff1;
+}
