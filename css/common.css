@@ -28,6 +28,7 @@ a{
 }
 .grey-text{
     color: rgb(198,198,198);
+    margin-right: 8px;
 }
 input{
     background-color: #eeeff1;
