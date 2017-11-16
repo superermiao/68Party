@@ -27,7 +27,7 @@
 
 #searchBar{
     position: absolute;
-    left: 310px;
+    left: 235px;
 }
 #searchBar,#fabu{
     top: 36px;
@@ -59,14 +59,14 @@
     text-align: center;
     cursor: pointer;
     color: #ffffff;
+    font-size: 16px;
 }
 #searchBtn{
     height: 48px;
-    width: 100px;
+    width: 86px;
     line-height: 46px;
     overflow: hidden;
     border: 0;
-    font-size: 16px;
 }
 #hotWords{
     position: absolute;
@@ -77,10 +77,36 @@
     overflow: hidden;
     width: 612px;
 }
-#fabu,#fabuhongbao{
+.free-message,#fabuhongbao{
     display: inline-block;
-    left: 612px;
+    left: 900px;
     position: absolute;
+    width: 150px;
 }
 
+.free-message{
+    width: 150px;
+    line-height: 48px;
+    border-radius: 5px;
+    top:36px;
+}
 
+#fabuhongbao{
+    text-align: center;
+    top: 88px;
+}
+#nav{width: 100%;height:44px;background: #45BFB7;line-height: 44px;}
+#nav .list{width:1198px;height: 44px;margin:0 auto;position: relative;background: #45BFB7;}
+#nav ul{position: absolute;left:200px;}
+#nav ul li{float: left; width: 100px;height:44px;text-align: center;background: #45BFB7;margin: 0 8px;}
+#nav ul li.cur{background: #fff;border-radius:5px;-ms-border-radius:5px; -webkit-border-radius: 5px;-moz-border-radius:5px;}
+#nav ul li.cur a{background: #fff;color: #45BFB7;}
+#nav ul li a{color: #fff;}
+#nav ul li.phone{background: url("../images/ico_banner_phone.png")no-repeat 5px 16px;position: absolute;right:-110px; }
+#nav ul li.phone a,#nav ul li.out a{width: auto;height: 42px;font-size: 14px;}
+#nav ul li.out{background: url("../images/ico_banner_user.png")no-repeat 15px 16px;position: absolute;right:-230px;}
+#nav a.img img{width: 19px;height: 12px;position: absolute;right: -110px;top:18px;}
+#list{width: 1198px;height:270px;background: #fff;margin:20px auto;}
+#list .list_content {padding-top: 10px;}
+#list .list_content ul li{width:299px;height: 135px; float: left;text-align: center;}
+#list .list_content ul li h3{color: black;}
